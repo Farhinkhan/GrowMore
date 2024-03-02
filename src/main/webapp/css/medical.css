@@ -1,0 +1,314 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 1, 2023, 11:18:14 AM
+    Author     : khan
+*/
+
+body {
+  font-family:Roboto;
+   margin:0;}
+.topnav {
+  overflow: hidden;
+  background-color:white;
+  margin:0;
+  padding:0;
+  position:fixed;
+  top:0;
+  width:100%;
+  height:13%;
+  
+}
+.logo_item p{
+    margin-top:5px;
+}
+.logo_item {
+  display: flex;
+  column-gap:20px;
+  font-size:30px;
+  margin:20px;
+  top:50px;
+}
+.topnav img {
+  width:45px;
+  height:45px;
+  border-radius:50px;
+  margin-left:40px;
+  box-shadow: 2px 2px gray;
+}
+
+.text{
+    background-image:url('images/hospital.jpg');
+    background-size:cover;
+    height:600px;
+    margin-top:55px;
+}
+.text #p1{
+    font-size:50px;
+    margin-top:90px;
+    margin-left:100px;
+    padding-top:100px;
+    font-weight:bold;
+}
+.text #p2{
+    margin-left:100px;
+    font-size:30px;
+}
+.box{
+    float:right;
+    margin-top:90px;
+    margin-right:70px;
+    border-radius:20px;
+    padding:20px 20px;
+    height:250px;
+    width:500px;
+    background-color:white;
+    align-items:center;
+}
+.box img{
+    width:60px;
+    height:60px;
+   border-radius:50px;
+  box-shadow: 2px 2px gray;
+  margin-left:200px ;
+}
+
+.box button{
+    background-color:lightblue;
+    border-radius:10px;
+    border:none;
+    font-size:25px;
+    font-weight:bold;
+    color:white;
+    padding:10px 10px;
+    text-align:center;
+    margin-left:90px;
+    margin-top:15px;
+    
+}
+.box h1{
+    text-align:center;
+    margin-top:20px;
+}  
+.box1 h2:hover{
+    background-color: white;
+    border:none;
+}
+.text1 h1{
+    text-align:center;
+    font-size:40px;
+    padding:10px;
+    
+}
+.text1 h3{
+   text-align:center;
+   font-size:22px;
+   color:gray;
+    
+}
+.container{
+    padding:90px;
+}
+.container img{
+    float:right;
+    margin-right:10px;
+    width:500px;
+    height:300px;
+    padding:15px;
+    border-radius:40px;
+}
+.container h2{
+    margin-left:35px;
+    font-size:25px;
+}
+.container p{
+    margin-left:35px;
+    font-size:20px;
+    color:gray;
+}
+.container1{
+    padding:100px;
+}
+.container1 img{
+    margin-left:22px;
+    width:500px;
+    height:300px;
+    padding:15px;
+    border-radius:40px;
+}
+.content{
+    float:right;
+    margin-right:15px;
+}
+.container1 h2{
+    font-size:25px;
+}
+.container1 p{
+    font-size:20px;
+    color:gray;
+}
+
+
+.container2{
+    padding:20px;
+}
+.container2 img{
+    float:right;
+    margin-right:90px;
+    width:500px;
+    height:300px;
+
+    padding:1px;
+    border-radius:30px;
+}
+.container2 h2{
+    margin-left:120px;
+    font-size:25px;
+}
+.container2 p{
+    margin-left:120px;
+    font-size:20px;
+    color:gray;
+}
+.context{
+    background-color:rgb(245, 222, 199);
+}
+.context #head{
+    text-align:center;
+    font-size:40px;
+    margin-top:150px;
+    padding:50px;
+}
+.context .cont{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-left:250px;
+    row-gap: 70px;
+}
+.context img{
+  width:100px;
+  height:100px;
+  border-radius:100px;
+  margin-left: 700px;
+  padding:5px;
+
+}
+.context .cont p{
+    color:gray;
+    font-size:18px;
+}
+
+.wrapper {
+    
+    margin: auto;
+    background-color:azure;
+  }
+  
+  .wrapper > p,
+  .wrapper > h1 {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .wrapper > h1 {
+    letter-spacing: 3px;
+  }
+  
+  .accordion {
+    
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .accordion i {
+    font-size: 1.6rem;
+    margin-right:150px;
+  }
+  
+  .pannel {
+    padding: 0 2rem 2.5rem 2rem;
+   
+    overflow: hidden;
+   
+    display: none;
+  }
+  .pannel p {
+    color:gray;
+    font-size: 1.2rem;
+    line-height: 1.4;
+  
+  }
+  .faq {
+    margin-left:270px;
+    
+  }
+  .faq.active {
+    border: none;
+  }
+  .wrapper h1{
+    padding:30px;
+    color:darkgreen;
+  }
+  .cards{
+    display:inline-block;
+    width:20%;
+  
+    border-radius:5px;
+    margin:50px;
+    margin-left:120px;
+    box-shadow: 2px 2px 10px black;
+}
+.image img{
+    width:100%;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+}
+.Title{
+    text-align: center;
+    padding:5px;
+    font-size:10px;
+}
+.des{
+    text-align: center;
+    padding:4px;
+}
+#button{
+    margin-top:20px;
+    margin-bottom: 20px;
+   background:linear-gradient(300deg,#7bd2ef,#065068);
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:5px;
+    font-size:15px;
+    cursor:pointer;
+}
+#button:hover{
+   background:linear-gradient(300deg, rgb(13, 11, 11) ,rgb(69, 68, 68),rgb(190, 188, 188));
+   color:white;
+}
+.des p{
+    color:gray;
+}
+.cards:hover{
+   background-color:azure; 
+   transition: transform  0.6s ;
+   transform:scale(1.2);
+}
+#activefr{
+     text-align: center;
+     color:brown;
+     padding:20px;
+ }
